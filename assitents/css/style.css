@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ body {
+     background-image: url(../img/masjid.jpg);
+     background-size: cover;
+     
+ }
+
+ .title {
+     font-family: "Montserrat";
+     text-align: center;
+     color: #FFF;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     letter-spacing: 1px;
+ }
+
+ h6{
+     background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+     background-size: cover;
+     color: transparent;
+     -moz-background-clip: text;
+     -webkit-background-clip: text;
+     text-transform: uppercase;
+     font-size: 50px;
+     line-height: .85;
+     margin: 10px 0;
+     font-weight: bold;
+  
+ }
+ /* styling my button */
+
+ .white-mode {
+     text-decoration: none;
+     text-align: center;
+     padding: 7px 10px;
+     background-color: #122;
+     border-radius: 3px;
+     color: #FFF;
+     transition: .35s ease-in-out;
+     position: absolute;
+     font-size: 10px; 
+     font-family: "Montserrat";
+     
+ }
+
+ .white-mode:hover {
+     background-color: #FFF;
+     color: #122;
+ }
+ .white-modee{
+     text-decoration: none;
+     text-align: center;
+     font-size: 10px;
+     padding: 7px 10px;
+     background-color: #122;
+     border-radius: 3px;
+     
+     color: #FFF;
+     transition: .35s ease-in-out;
+       
+ }
+ .white-modee:hover{
+     background-color: #FFF;
+     color: #122;
+ }
+ .namoz-vaqti h2 {
+     color: blanchedalmond;
+     font-size: 15px;
+     padding-top: 10px;
+     
+ }
+ 
+ 
+ .namoz-vaqti ul{
+     position: absolute;
+     top: 10px;
+     right: 2%;
+     color: white;
+     font-size: 11px;
+     margin-left: -10px;
+     font-style: italic;
+ }
+ .namoz-vaqti ul:hover{
+     font-weight: bold;
+ }
+ .qoldi p{
+     font-size: 12pxpx;
+     color: white;
+     -top: -250px;
+ }
+ .test{
+     color: #FFF;
+     position: fixed;
+     bottom: 0;
+ }
+ @media (min-width: 240px) and (max-width: 510px){
+     body{
+         background-image: url(../img/for-phone.jpg)
+     }
+ }
+ @media (min-width: 140px) and (max-width: 340px){
+     #yozchi{
+         width: 100%;
+     }
+ }
+ #vaqt{
+     padding-top: -40px;
+ }
